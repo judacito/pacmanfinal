@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: PAC-FONT;
+    src: url(../cces/PAC-FONT.TTF);
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: black;
+    color: yellow;
+}
+
+@media (min-width: 576px ) and (max-width: 768px) 
+{
+
+  body {
+    background-color: rgba(226, 26, 210, 0.336);
+  }
+.fondo {
+   width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+} 
+
+.fon {
+    display: flex;
+    justify-content: center;
+}
+
+.pacmanmotion {
+    position: relative;
+    animation: pacman 15s infinite;
+    width: 6%;
+    height: 6%;
+    top: 5px;
+    left: -485px;
+   
+}
+
+ @keyframes pacman {
+   0% {top:5px; left:-485px;}
+  10% {top:5px; left:-390px;}
+  12% {top:97px; left:-390px;}
+  15% {top:97px; left:-345px;} 
+  20% {top:165px; left:-345px;}
+  25% {top:165px; left:-325px;}
+  28% {top:190px; left:-325px;} 
+  30% {top:190px; left:-300px;} 
+  32% {top:260px; left:-300px;} 
+  35% {top:260px; left:-345px;}
+  40% {top:235px; left:-345px;} 
+  42% {top:235px; left:-390px;} 
+  45% {top:70px; left:-390px;} 
+  50% {top:70px; left:-445px;} 
+  55% {top:110px; left:-445px;}                 
+} 
+ }
+
+
+ @media (min-width: 769px ) and (max-width: 992px) 
+{
+
+  body {
+    background-color: rgba(38, 2, 53, 0.336);
+  }
+.fondo {
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+} 
+
+.pacmanmotion {
+    position: relative;
+    animation: pacman 15s infinite; 
+    width: 4%;
+    height: 4%;
+    top: 20px;
+    left: -550px;
+   
+}
+
+ @keyframes pacman {
+   0% {top:20px; left:-550px;}
+  10% {top:20px; left:-445px;}
+  12% {top:240px; left:-445px;}
+  15% {top:240px; left:-390px;} 
+  20% {top:400px; left:-390px;}
+  25% {top:400px; left:-365px;}
+  28% {top:450px; left:-365px;} 
+  30% {top:450px; left:-340px;} 
+  32% {top:620px; left:-340px;} 
+  35% {top:620px; left:-390px;}
+  40% {top:560px; left:-390px;} 
+  42% {top:560px; left:-445px;} 
+  45% {top:180px; left:-445px;} 
+  50% {top:180px; left:-500px;} 
+  55% {top:260px; left:-500px;}         
+                  
+} 
+ }
+
+ @media (min-width:993px ) and (max-width: 1200px)
+ {
+
+    body {
+        background-color: rgba(52, 15, 216, 0.315);
+      }
+    .fondo {
+       width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+    } 
+    
+    .fon {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .pacmanmotion {
+    position: relative;
+    animation: pacman 15s infinite; 
+    width: 6%;
+    height: 6%;
+    top: 15px;
+    left: -880px;
+   
+
+}
+
+ @keyframes pacman {
+   0% {top:15px; left:-880px;}
+  10% {top:15px; left:-710px; }
+  12% {top: 200px; left:-710px;}
+  15% {top:200px; left:-620px;} 
+  20% {top:340px; left:-620px;}
+  25% {top:340px; left:-580px;}
+  28% {top:385px; left:-580px;} 
+  30% {top:385px; left:-540px;} 
+  32% {top:530px; left:-540px;} 
+  35% {top:530px; left:-620px;}
+  40% {top:480px; left:-620px;} 
+  42% {top:480px; left:-710px;} 
+  45% {top:150px; left:-710px;} 
+  50% {top:150px; left:-800px;} 
+  55% {top:230px; left:-800px;} 
+}  
+
+ } 
+
+
+.letras{
+font-size: 60px;
+text-align: center;
+
+}
+
+
+.fondo {
+   width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+} 
+
+.fon {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+h3 {
+font-family:PAC-FONT;
+font-size: 70px;
+text-align: center;
+display: flex;
+}
+
+
+.tamaño {
+    font-family:PAC-FONT;
+    font-size: 50px;
+    text-align: center;
+    display: flex;
+}
+
+P {
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+.pac {
+    display: flex;
+    justify-content: center;
+}
+
+  .abajo{
+    font-size: 35px;
+}
+
+h1 {
+font-family:PAC-FONT;
+font-size: 50px;
+margin: 30px;
+}
